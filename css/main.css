@@ -1,6 +1,11 @@
 body {
   font-family: 'Lato', sans-serif;
 }
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
 .heading {
   font-weight: bold;
   font-size: 72px;
@@ -21,6 +26,35 @@ body {
   font-size: 14px;
   line-height: 1.43;
 }
+input {
+
+}
+select{
+
+}
+.main_button{
+  width: 160px;
+  height: 60px;
+  border: none;
+  border-radius: 6px;
+  background: #ed4c5c;
+  color: #fff;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.main_button:focus {
+  outline: none;
+  box-shadow: 0 0 0 5px #d62739;
+}
+.main_button:hover {
+  background-color: #d62739;
+}
+/* .main_button:active {
+  background-color: ;
+} */
+/* .main_button:focus {
+  box-shadow: #d62739;
+} */
 /* временный css */
 .video_promo {
   width: 540px;
@@ -30,7 +64,7 @@ body {
   background-color: rgb(170, 37, 99);
 }
 .saving_money {
-  background-color: #ED4C5C;
+  background-color: #ed4c5c;
 }
 iframe {
   width: 540px;

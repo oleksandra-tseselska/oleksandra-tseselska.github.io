@@ -15,9 +15,44 @@
   <link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
-  <p class="heading">Heading one</p>
-  <p class="title">Heading two</p>
-  <p class="sub_title">Heading three</p>
-  <p class="plain_text">Plain text</p>
+  <section>
+    <p class="heading">Heading one</p>
+    <p class="title">Heading two</p>
+    <p class="sub_title">Heading three</p>
+    <p class="plain_text">Plain text</p>
+  </section>
+  <section>
+    <form>
+      <input 
+      type="text"
+      name="first_name"
+      placeholder="First Name"
+      required
+      >
+      <input 
+      type="text"
+      name="last_name"
+      placeholder="Last Name"
+      required
+      >
+      <br>
+      <input 
+      type="tel"
+      name="phone"
+      placeholder="Phone Number"
+      required
+      >
+      <br>
+      <select name="services">
+        <option value="service1">service1</option>
+        <option value="service2">service2</option>
+        <option value="service3">service3</option>
+        <option value="service4">service4</option>
+      </select>
+      <br>
+      <button class="main_button  plain_text" type="submit">Submit now</button>
+    </form>
+    <script src="https://febasic.github.io/js/form.js"></script>
+  </section>
 </body>
 </html>
