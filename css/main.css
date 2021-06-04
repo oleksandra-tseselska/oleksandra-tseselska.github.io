@@ -30,38 +30,49 @@ body {
   font-size: 14px;
   line-height: 1.21;
 }
-.input_user_name {
-  width: 255px;
+/* Внимание. После добавления сетки возможно надо будет
+удалить margin and padding и объединить <input> */
+.input_user_first_name {
   height: 60px;
+  background-color: white;
   border: 1px solid #333;
   border-radius: 6px;
-  margin-bottom: 24px;
-  color: #13274380;
+  color: rgba(19, 39, 67, 0.5);
+  padding-left: 31px;
+  /* margin-bottom: 24px;
+  margin-right: 30px; */
 }
-.input_user_name:focus {
-  outline: none;
-  box-shadow: 0 0 0 2px black;
+.input_user_last_name {
+  height: 60px;
+  background-color: white;
+  border: 1px solid #333;
+  border-radius: 6px;
+  color: rgba(19, 39, 67, 0.5);
+  padding-left: 31px;
+  /* margin-bottom: 24px; */
 }
 .input_phone {
-  width: 540px;
   height: 60px;
+  background-color: white;
   border: 1px solid #333;
   border-radius: 6px;
-  margin-bottom: 24px;
-  color: #13274380;
-}
-.input_phone:focus {
-  outline: none;
-  box-shadow: 0 0 0 2px black;
+  color: rgba(19, 39, 67, 0.5);
+  padding-left: 31px;
+  /* margin-bottom: 24px; */
 }
 .select_service {
   width: 540px;
   height: 60px;
+  background-color: white;
   border: 1px solid #333;
   border-radius: 6px;
-  margin-bottom: 27px;
-  color: #13274380;
+  color: rgba(19, 39, 67, 0.5);
+  padding-left: 31px;
+  /* margin-bottom: 27px; */
 }
+.input_user_first_name:focus,
+.input_user_last_name:focus,
+.input_phone:focus,
 .select_service:focus {
   outline: none;
   box-shadow: 0 0 0 2px black;
@@ -70,6 +81,7 @@ body {
   width: 160px;
   height: 60px;
   border: none;
+  /* border: 1.5px solid #ed4c5c; */
   border-radius: 6px;
   background: #ed4c5c;
   color: white;
@@ -83,9 +95,9 @@ body {
 .main_button:hover {
   background-color: #d62739;
 }
-/* .main_button:active {
-  background-color: ;
-} */
+.main_button:active {
+  background-color: #f53b0d;
+}
 /* временный css */
 .video_promo {
   width: 540px;
