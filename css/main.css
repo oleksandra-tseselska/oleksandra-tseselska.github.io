@@ -23,22 +23,56 @@ body {
   line-height: 1.22;
 }
 .plain_text {
+  font-size: 16px;
+  line-height: 1.19;
+}
+.sub_plain_text {
   font-size: 14px;
-  line-height: 1.43;
+  line-height: 1.21;
 }
-input {
-
+.input_user_name {
+  width: 255px;
+  height: 60px;
+  border: 1px solid #333;
+  border-radius: 6px;
+  margin-bottom: 24px;
+  color: #13274380;
 }
-select{
-
+.input_user_name:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px black;
 }
-.main_button{
+.input_phone {
+  width: 540px;
+  height: 60px;
+  border: 1px solid #333;
+  border-radius: 6px;
+  margin-bottom: 24px;
+  color: #13274380;
+}
+.input_phone:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px black;
+}
+.select_service {
+  width: 540px;
+  height: 60px;
+  border: 1px solid #333;
+  border-radius: 6px;
+  margin-bottom: 27px;
+  color: #13274380;
+}
+.select_service:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px black;
+}
+.main_button {
   width: 160px;
   height: 60px;
   border: none;
   border-radius: 6px;
   background: #ed4c5c;
-  color: #fff;
+  color: white;
   text-transform: uppercase;
   cursor: pointer;
 }
@@ -51,9 +85,6 @@ select{
 }
 /* .main_button:active {
   background-color: ;
-} */
-/* .main_button:focus {
-  box-shadow: #d62739;
 } */
 /* временный css */
 .video_promo {
