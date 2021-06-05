@@ -10,7 +10,7 @@ button {
   border: none;
   background: none;
   cursor: pointer;
-
+  text-transform: uppercase;
 }
 .header {
   background: url(../images/bg_for_header.jpg);
@@ -81,7 +81,6 @@ button {
   border-radius: 6px;
   background: #ed4c5c;
   color: white;
-  text-transform: uppercase;
 }
 .main_button:focus {
   outline: none;
