@@ -6,30 +6,147 @@ body {
 *:after {
   box-sizing: border-box;
 }
+ol,
+ul {
+  margin: 0;
+  padding: 0; 
+  list-style-type: none;
+}
 button {
   border: none;
   background: none;
   cursor: pointer;
   text-transform: uppercase;
 }
-.header {
-  background: url(../images/bg_for_header.jpg);
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  margin-bottom: 0;
 }
+figure,
+p {
+  margin: 0;
+  padding: 0; 
+}
+.temperary {
+  padding-bottom: 700px;
+}
+.text_center {
+  text-align: center;
+}
+.contener {
+  max-width: 1140px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.row {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+.row:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.col {
+  float: left;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.col_1 {
+  width: 8.33333%;
+}
+.col_2 {
+  width: 16.66666%;
+}
+.col_3 {
+  width: 25%
+}
+.col_4 {
+  width: 33.33333%;
+}
+.col_5 {
+  width: 41.66666%;
+}
+.col_6 {
+  width: 50%;
+}
+.col_7 {
+  width: 58.33333%;
+}
+.col_8 {
+  width: 66.66666%;
+}
+.col_9 {
+  width: 75%;
+}
+.col_10 {
+  width: 83.33333%;
+}
+.col_11 {
+  width: 91.66666%;
+}
+.offset_1 {
+  margin-left: 8.33333%;
+}
+.offset_2 {
+  margin-left: 16.66666%;
+}
+.offset_3 {
+  margin-left: 25%
+}
+.offset_4 {
+  margin-left: 33.33333%;
+}
+.offset_5 {
+  margin-left: 41.66666%;
+}
+.offset_6 {
+  margin-left: 50%;
+}
+.offset_7 {
+  margin-left: 58.33333%;
+}
+.offset_8 {
+  margin-left: 66.66666%;
+}
+.offset_9 {
+  margin-left: 75%;
+}
+.offset_10 {
+  margin-left: 83.33333%;
+}
+.offset_11 {
+  margin-left: 91.66666%;
+}
+/* 198 index.html */
 .saving_money {
   background-color: #ed4c5c;
 }
-.heading {
+/* css которыы пока используется 
+только в ui.html */
+.page_header {
+  background: url(../images/bg_for_header.jpg);
+  background-size: cover;
+}
+.heading_text {
   font-weight: bold;
   font-size: 72px;
   line-height: 1.19;
   text-transform: uppercase;
 }
-.title {
+.title_text {
   font-weight: 600;
   font-size: 36px;
   line-height: 1.19;
 }
-.sub_title {
+.sub_title_text {
   font-weight: bold;
   font-size: 18px;
   line-height: 1.22;
@@ -42,7 +159,7 @@ button {
   font-size: 14px;
   line-height: 1.21;
 }
-.input_user_name_tel {
+.main_input {
   display: block;
   width: 100%;
   height: 60px;
@@ -53,7 +170,7 @@ button {
   padding-right: 31px;
   margin-bottom: 24px;
 }
-.select_service {
+.main_select {
   display: block;
   width: 100%;
   height: 60px;
@@ -71,8 +188,8 @@ button {
   appearance: none;
   background: url(../images/questionable/arrow.svg) 97% center no-repeat !important;
 }
-.input_user_name_tel:focus
-.select_service:focus {
+.main_input:focus
+.main_select:focus {
   outline: none;
   box-shadow: 0 0 0 3px black;
 }
@@ -91,13 +208,4 @@ button {
 }
 .main_button:active {
   background-color: #eb1228;
-}
-/* временный css */
-.video_promo {
-  width: 540px;
-  height: 311px;
-}
-iframe {
-  width: 540px;
-  height: 378px;
 }
