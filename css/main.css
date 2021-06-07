@@ -183,9 +183,6 @@ p {
   background-color: white;
   border: 1px solid #333;
   border-radius: 6px;
-  /* Пока оставила цвет для Select чтобы красиво было.
-  Потом поищу как модифицировать выпадающее меню */
-  color: rgba(19, 39, 67, 0.7);
   padding-left: 31px;
   padding-right: 31px;
   margin-bottom: 27px;
