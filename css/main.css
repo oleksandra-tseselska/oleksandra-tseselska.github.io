@@ -32,12 +32,6 @@ p {
   margin: 0;
   padding: 0; 
 }
-.temperary {
-  padding-bottom: 700px;
-}
-.text_center {
-  text-align: center;
-}
 .contener {
   max-width: 1140px;
   margin-right: auto;
@@ -125,16 +119,8 @@ p {
 .offset_11 {
   margin-left: 91.66666%;
 }
-/* 198 index.html */
-.saving_money {
-  background-color: #ed4c5c;
-}
-/* css которыы пока используется 
+/* css который пока используется 
 только в ui.html */
-.page_header {
-  background: url(../images/bg_for_header.jpg);
-  background-size: cover;
-}
 .heading_text {
   font-weight: bold;
   font-size: 72px;
@@ -158,6 +144,26 @@ p {
 .sub_plain_text {
   font-size: 14px;
   line-height: 1.21;
+}
+/* а этот  уже применила */
+.text_center {
+  text-align: center;
+}
+.page_header {
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+.hero_section {
+  background: url(../images/bg_for_header.jpg);
+  background-size: cover;
+  background-position: center;
+  /* временный padding */
+  padding-top: 180px;
+  padding-bottom: 180px;
+}
+.page_colored {
+  background-color: #ed4c5c;
 }
 .main_input {
   display: block;
@@ -208,4 +214,8 @@ p {
 }
 .main_button:active {
   background-color: #eb1228;
+}
+/* не забыть удалить после завершения проекта */
+.temperary {
+  padding-bottom: 300px;
 }
