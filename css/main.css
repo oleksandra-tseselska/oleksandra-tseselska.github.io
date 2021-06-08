@@ -23,14 +23,16 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+p {
   margin-top: 0;
   margin-bottom: 0;
 }
-figure,
-p {
+figure {
   margin: 0;
-  padding: 0; 
+}
+a {
+  text-decoration: none;
 }
 .contener {
   max-width: 1140px;
@@ -141,18 +143,72 @@ p {
   font-size: 16px;
   line-height: 1.19;
 }
+/* а этот  уже применила */
 .sub_plain_text {
   font-size: 14px;
   line-height: 1.21;
 }
-/* а этот  уже применила */
 .text_center {
   text-align: center;
+}
+.text_right {
+  text-align: right;
+}
+.text_left {
+  text-align: left;
+}
+.text_white {
+  color: white;
 }
 .page_header {
   position: absolute;
   left: 0;
   right: 0;
+}
+.logo_link {
+  display: block;
+  padding: 20px 10px;
+  margin-top: 20px;
+  margin-right: 60px;
+}
+.logo_link:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.507);
+  border-radius: 6px;
+}
+.nav_bar_list_item {
+  display: inline-block;
+}
+.nav_bar_list_link {
+  display: block;
+  text-transform: uppercase;
+  padding: 20px 10px;
+  margin-top: 30px;
+
+}
+.nav_bar_list_link:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.507);
+  border-radius: 6px;
+}
+.link_buttom_transparent {
+  display: block;
+  text-transform: uppercase;
+  border:  1px solid white;
+  border-radius: 6px;
+  padding: 11px 28px;
+  margin-top: 38px;
+  margin-left: 60px;
+}
+.link_buttom_transparent:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.507);
+}
+.link_buttom_transparent:hover {
+  background-color: rgba(255, 255, 255, 0.137);
+}
+.link_buttom_transparent:active {
+  background-color: rgba(255, 255, 255, 0.274);
 }
 .hero_section {
   background: url(../images/bg_for_header.jpg);
@@ -200,7 +256,6 @@ p {
   padding: 22px 35px;
   border-radius: 6px;
   background: #ed4c5c;
-  color: white;
 }
 .main_button:focus {
   outline: none;
