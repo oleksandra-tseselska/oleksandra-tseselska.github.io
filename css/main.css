@@ -33,6 +33,11 @@ figure {
 a {
   text-decoration: none;
 }
+.body_contener{
+  max-width: 1440px;
+  margin-right: auto;
+  margin-left: auto;
+}
 .contener {
   max-width: 1140px;
   margin-right: auto;
@@ -148,16 +153,6 @@ a {
   font-size: 16px;
   line-height: 1.37;
 }
-.wite_focus:focus {
-  outline: none;
-  box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.507);
-  border-radius: 6px;
-}
-.color_focus:focus {
-  outline: none;
-  box-shadow: 0 0 0 2px #ed4c5c;
-  border-radius: 6px;
-}
 .sub_plain_text {
   font-size: 14px;
   line-height: 1.21;
@@ -178,6 +173,9 @@ a {
 .text_white {
   color: white;
 }
+.text_colored {
+  color: #ed4c5c;
+}
 .text_uppercase {
 text-transform: uppercase;
 }
@@ -186,6 +184,26 @@ text-transform: uppercase;
 }
 .text_justify {
   text-align: justify;
+}
+.title_contener {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.grey_contener {
+  background-color: #fafafa;
+}
+.colored_contener {
+  background-color: #ed4c5c;
+}
+.wite_focus:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.507);
+  border-radius: 6px;
+}
+.color_focus:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px #ed4c5c;
+  border-radius: 6px;
 }
 .page_header {
   position: absolute;
@@ -205,7 +223,6 @@ text-transform: uppercase;
   display: block;
   padding: 20px 10px;
   margin-top: 30px;
-
 }
 .link_buttom_primary {
   display: block;
@@ -281,8 +298,33 @@ text-transform: uppercase;
   box-shadow: 0 0 0 2px #ed4c5c;
   border-radius: 15px;
 }
-.page_colored {
-  background-color: #ed4c5c;
+.article_text {
+  width: 293px;
+  height: 198px;
+}
+.article_title {
+  padding: 33px 32px 20px;
+}
+.article_img:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px #ed4c5c;
+  border-radius: 15px;
+}
+.article_excerpt {
+  padding-right: 32px;
+  padding-bottom: 5px;
+  padding-left: 32px;
+}
+.article_more_link {
+  padding-right: 20px;
+  padding-bottom: 25px;
+  padding-left: 20px;
+}
+.fat_finger_link {
+  display: block;
+  padding: 20px 10px;
+  margin-right: 70px;
+  margin-left: 70px;
 }
 .main_input {
   display: block;

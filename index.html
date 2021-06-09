@@ -17,7 +17,7 @@
   >
   <link rel="stylesheet" href="./css/main.css">
 </head>
-<body>
+<body class="body_contener">
   <header class="page_header">
     <div class="contener">
       <div class="row">
@@ -96,8 +96,8 @@
     </div>
   </header>
   <main>
-    <section>
-      <div class="contener hero_section">
+    <section class="hero_section">
+      <div class="contener">
         <div class="row">
           <div class="col offset_2 col_8">
             <h1
@@ -175,61 +175,151 @@
               loop
               controls
               poster="./images/video_poster.jpg"
+              tabindex="13"
               >
             </video>
           </div>
         </div>
       </div>
     </section>
-    <section>
+    <section class="grey_contener">
       <div class="contener">
-        <h2 class="text_center" id="features_heading_nav">
-          Features
-        </h2>
+        <div class="title_contener">
+          <h2 
+            class="title_text text_center color_focus" 
+            id="features_heading_nav"
+            tabindex="14"
+            >
+              Features
+          </h2>
+        </div>
         <ul class="row">
-          <li class="col col_4">
+          <li class="col col_4 color_focus" tabindex="15">
             <article>
               <img 
+                class="article_img"
                 src="./images/features/support_card.jpg" 
                 alt="money_on_heands" 
                 loading="lazy"
+                tabindex="16"
               >
-              <h3>Supports all currencies and cards</h3>
-              <p>
-                We support all popular currencies 
-                and is fully customizable to add
-              </p>
-              <a href="#">Read more</a>
+              <div class="article_text">
+                <div class="article_title">
+                  <h3 
+                    class="sub_title_text text_center color_focus"
+                    tabindex="17"
+                    >
+                      <span class="text_capitalize">
+                        Supports all currencies
+                      </span>
+                      and 
+                      <span class="text_capitalize">
+                        cards
+                      </span>
+                  </h3>
+                </div>
+                <div class="article_excerpt">
+                  <p 
+                    class="sub_plain_text text_center color_focus" 
+                    tabindex="18"
+                    >
+                    We support all popular currencies 
+                    and is fully customizable to add
+                  </p>
+                </div>
+                <div class="article_more_link text_center">
+                  <a 
+                    class="fat_finger_link text_colored sub_pain_tiny_text 
+                      color_focus" 
+                    href="#" 
+                    tabindex="19"
+                    >
+                      Read more
+                  </a>
+                </div>
+              </div>
             </article>
           </li>
-          <li class="col col_4">
+          <li class="col col_4 color_focus" tabindex="20">
             <article>
               <img 
+                class="article_img"
                 src="./images/features/to_go.jpg" 
                 alt="phon_in_heands" 
                 loading="lazy"
+                tabindex="21"
               >
-              <h3>Manage your expenses on the go</h3>
-              <p>
-                You can access your account from anywhere 
-                in the world on any device
-              </p>
-              <a href="#">Read more</a>
+              <div class="article_text">
+                <div class="article_title">
+                  <h3
+                    class="sub_title_text text_center color_focus"
+                    tabindex="22"
+                    >
+                      Manage your expenses on the go
+                  </h3>
+                </div>
+                <div class="article_excerpt">
+                  <p
+                    class="sub_plain_text text_center color_focus"
+                    tabindex="23"
+                    >
+                    You can access your account from anywhere 
+                    in the world on any device
+                  </p>
+                </div>
+                <div class="article_more_link text_center">
+                  <a 
+                    class="fat_finger_link text_colored sub_pain_tiny_text 
+                      color_focus" 
+                    href="#"
+                    tabindex="24"
+                    >
+                      Read more
+                  </a>
+                </div>
+              </div>
             </article>
           </li>
-          <li class="col col_4">
+          <li class="col col_4 color_focus" tabindex="25">
             <article>
               <img 
+                class="article_img"
                 src="./images/features/cloud_software.jpg" 
                 alt="bright_corridor-with-windows-to-the-floor" 
                 loading="lazy"
+                tabindex="26"
               >
-              <h3>Cloud budget management software</h3>
-              <p>
-                Our software is made so you 
-                can access and manage your budget
-              </p>
-              <a href="#">Read more</a>
+              <div class="article_text">
+                <div class="article_title">
+                  <h3
+                    class="sub_title_text text_center color_focus"
+                    tabindex="27"
+                    >
+                      <span class="text_capitalize">
+                        Cloud budget management software
+                      </span>
+                  </h3>
+                </div>
+                <div class="article_excerpt">
+                  <p 
+                    class="sub_plain_text text_center color_focus" 
+                    tabindex="28"
+                    >
+                    Our software is made so you 
+                    can access and manage your budget
+                  </p>
+                </div>
+                <div class="article_more_link text_center">
+                  <a 
+                    class="fat_finger_link text_colored sub_pain_tiny_text 
+                      color_focus" 
+                    href="#"
+                    tabindex="29"
+                    >
+                      Read more
+                  </a>
+                </div>
+              </div>
             </article>
           </li>
         </ul>
@@ -306,8 +396,8 @@
         </ul>
       </div>
     </section>
-    <section>
-      <div class="contener page_colored">
+    <section class="colored_contener">
+      <div class="contener">
         <div class="row">
           <div class="col col_5">
             <h2>Stay focused on saving money</h2>
