@@ -22,49 +22,54 @@
     <div class="contener">
       <div class="row">
         <div class="col col_3 text_left">
-          <a class="logo_link" href="#">
+          <a class="logo_link" href="#" tabindex="1">
             <img src="./images/logo/logo_all.svg" alt="cloud_budget">
           </a>
         </div>
         <div class="col col_6">
           <nav>
             <ul>
-              <li class="nav_bar_list_item">
+              <li class="nav_bar_list_item" >
                 <a 
-                  class="nav_bar_list_link text_white sub_plain_text" 
+                  class="nav_bar_list_link text_white sub_plain_text text_uppercase" 
                   href="#overview_heading_nav"
+                  tabindex="4"
                   >
                     Overview
                 </a>
               </li>
-              <li class="nav_bar_list_item ">
+              <li class="nav_bar_list_item " >
                 <a 
-                  class="nav_bar_list_link text_white sub_plain_text" 
+                  class="nav_bar_list_link text_white sub_plain_text text_uppercase" 
                   href="#features_heading_nav"
+                  tabindex="5"
                   >
                     Features
                 </a>
               </li>
-              <li class="nav_bar_list_item">
+              <li class="nav_bar_list_item" >
                 <a 
-                  class="nav_bar_list_link text_white sub_plain_text" 
+                  class="nav_bar_list_link text_white sub_plain_text text_uppercase" 
                   href="#technology_heading_nav"
+                  tabindex="6"
                   >
                     Tnechnology
                 </a>
               </li>
-              <li class="nav_bar_list_item">
+              <li class="nav_bar_list_item" >
                 <a 
-                  class="nav_bar_list_link text_white sub_plain_text" 
+                  class="nav_bar_list_link text_white sub_plain_text text_uppercase" 
                   href="#contact_heading_nav"
+                  tabindex="7"
                   >
                     Contact
                 </a>
               </li>
-              <li class="nav_bar_list_item">
+              <li class="nav_bar_list_item" >
                 <a 
-                  class="nav_bar_list_link text_white sub_plain_text" 
+                  class="nav_bar_list_link text_white sub_plain_text text_uppercase" 
                   href="#"
+                  tabindex="8"
                   >
                     Sign up
                 </a>
@@ -74,8 +79,9 @@
         </div>
         <div class="col offset_1 col_2 text_right">
           <a 
-            class="link_buttom_transparent text_white sub_plain_text" 
+            class="link_buttom_primary text_white sub_plain_text text_uppercase" 
             href="#"
+            tabindex="9"
             >
               Login
           </a> 
@@ -86,16 +92,38 @@
   <main>
     <section>
       <div class="contener hero_section">
-        <h1 class="text_center">CloudBudget</h1>
         <div class="row">
+          <div class="col offset_2 col_8">
+            <h1
+              class="hero_heading text_white heading_text text_uppercase text_center"
+              tabindex="10"
+              >
+                CloudBudget
+            </h1>
+          </div>
           <div class="col offset_3 col_6">
-            <p>Cloud budget management for everyone. 
-              Only €69.95 a month after a 7 day 
-              trial of up to €4.99
+            <p class="hero_slogan text_white sub_heading_text text_center"
+              tabindex="11"
+              >
+              Cloud budget management for everyone. Only
+              <br>
+              €69.95 a 
+              <span class="text_capitalize">month after</span> 
+              a 7 
+              <span class="text_capitalize">day trial</span>
+              of 
+              <br>
+              <span class="text_capitalize">up</span> 
+              to €4.99
             </p>
           </div>
           <div class="col offset_5 col_2">
-            <a href="#">Sign Up</a> 
+            <a 
+              class="link_buttom_bonus sub_plain_text text_uppercase" 
+              href="#"
+              >
+                Sign Up
+            </a> 
           </div>
         </div>
       </div>
@@ -351,7 +379,12 @@
                 <option value="service_3">Select Service 3</option>
                 <option value="service_4">Select Service 4</option>
               </select>
-              <button class="main_button text_white" type="submit">Submit now</button>
+              <button 
+                class="main_button text_white sub_plain_text text_uppercase" 
+                type="submit"
+                >
+                  Submit now
+              </button>
             </form>
           </div>
         </div>

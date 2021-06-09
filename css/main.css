@@ -16,7 +16,6 @@ button {
   border: none;
   background: none;
   cursor: pointer;
-  text-transform: uppercase;
 }
 h1,
 h2,
@@ -121,13 +120,15 @@ a {
 .offset_11 {
   margin-left: 91.66666%;
 }
-/* css который пока используется 
-только в ui.html */
 .heading_text {
   font-weight: bold;
   font-size: 72px;
   line-height: 1.19;
-  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+.sub_heading_text {
+  font-size: 24px;
+  line-height: 1.5;
 }
 .title_text {
   font-weight: 600;
@@ -143,10 +144,13 @@ a {
   font-size: 16px;
   line-height: 1.19;
 }
-/* а этот  уже применила */
 .sub_plain_text {
   font-size: 14px;
   line-height: 1.21;
+}
+.sub_pain_tiny_text {
+  font-size: 12px;
+  line-height: 1.5;
 }
 .text_center {
   text-align: center;
@@ -159,6 +163,12 @@ a {
 }
 .text_white {
   color: white;
+}
+.text_uppercase {
+text-transform: uppercase;
+}
+.text_capitalize {
+  text-transform: capitalize;
 }
 .page_header {
   position: absolute;
@@ -181,7 +191,6 @@ a {
 }
 .nav_bar_list_link {
   display: block;
-  text-transform: uppercase;
   padding: 20px 10px;
   margin-top: 30px;
 
@@ -191,32 +200,69 @@ a {
   box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.507);
   border-radius: 6px;
 }
-.link_buttom_transparent {
+.link_buttom_primary {
   display: block;
-  text-transform: uppercase;
   border:  1px solid white;
   border-radius: 6px;
   padding: 11px 28px;
   margin-top: 38px;
   margin-left: 60px;
 }
-.link_buttom_transparent:focus {
+.link_buttom_primary:focus {
   outline: none;
   box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.507);
 }
-.link_buttom_transparent:hover {
+.link_buttom_primary:hover {
   background-color: rgba(255, 255, 255, 0.137);
 }
-.link_buttom_transparent:active {
+.link_buttom_primary:active {
   background-color: rgba(255, 255, 255, 0.274);
 }
 .hero_section {
   background: url(../images/bg_for_header.jpg);
   background-size: cover;
   background-position: center;
-  /* временный padding */
-  padding-top: 180px;
+  padding-top: 250px;
   padding-bottom: 180px;
+}
+.hero_heading {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.hero_heading:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.507);
+  border-radius: 6px;
+}
+.hero_slogan {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+.hero_slogan:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.507);
+  border-radius: 6px;
+}
+.link_buttom_bonus {
+  display: block;
+  width: 100%;
+  height: 60px;
+  color: #ed4c5c;
+  background-color: white;
+  border-radius: 6px;
+  padding: 20px 50px;
+}
+.link_buttom_bonus:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.507);
+
+}
+.link_buttom_bonus:hover {
+  background-color: rgb(255, 225, 228);
+}
+.link_buttom_bonus:active {
+  background-color: rgb(252, 184, 191);
 }
 .page_colored {
   background-color: #ed4c5c;
