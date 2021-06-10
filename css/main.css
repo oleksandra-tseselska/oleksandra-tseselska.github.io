@@ -238,7 +238,7 @@ text-transform: uppercase;
 .link_buttom_primary:active {
   background-color: rgba(255, 255, 255, 0.274);
 }
-.hero_section {
+.hero-section {
   background: url(../images/bg_for_header.jpg);
   background-size: cover;
   background-position: center;
