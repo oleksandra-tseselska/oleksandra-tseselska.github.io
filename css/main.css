@@ -334,6 +334,33 @@ text-transform: uppercase;
   margin-right: 70px;
   margin-left: 70px;
 }
+.big_number {
+  font-weight: bold;
+  font-size: 100px;
+  line-height: 1.2;
+  color: rgba(16, 16, 16, 0.08);
+}
+.list_wrapper {
+  padding-bottom: 110px;
+}
+.list_wrapper__inner_img {
+  margin-top: -60px;
+}
+.list_wrapper__inner_img_2 {
+  margin-top: -54px;
+  padding-bottom: 12px;
+}
+.list_wrapper__inner_img_3 {
+  margin-top: -52px;
+  padding-bottom: 18px;
+}
+.list_wrapper__inner_img_4 {
+  margin-top: -50px;
+  padding-bottom: 18px;
+}
+.list_wrapper__inner_text {
+  padding: 10px 32px 5px;
+}
 .main_input {
   display: block;
   width: 100%;
