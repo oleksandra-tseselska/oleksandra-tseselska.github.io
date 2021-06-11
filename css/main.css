@@ -17,6 +17,9 @@ button {
   background: none;
   cursor: pointer;
 }
+iframe {
+  border: none;
+}
 h1,
 h2,
 h3,
@@ -136,7 +139,6 @@ a {
   line-height: 1.5;
 }
 .title_text {
-  font-weight: 600;
   font-size: 36px;
   line-height: 1.19;
 }
@@ -361,6 +363,41 @@ text-transform: uppercase;
 .list_wrapper__inner_text {
   padding: 10px 32px 5px;
 }
+.e-market_header {
+  padding-top: 110px;
+  padding-bottom: 34px;
+}
+.e-market_list {
+  padding-top: 35px;
+  padding-bottom: 100px;
+}
+.e-market_list_item {
+  display: inline-block;
+}
+.e-market_list_item_link_google_play {
+  display: block;
+  padding: 10px 10px 10px 0;
+}
+.e-market_list_item_link_apple {
+  display: block;
+  padding: 10px;
+  margin-right: 8px;
+  margin-left: 8px;
+}
+.e-market_list_item_link_win {
+  display: block;
+  padding: 10px;
+  position: absolute;
+  margin-top: -37px;
+}
+.e-market_iframe {
+  width: 100%;
+  height: 380px;
+  border-radius: 15px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
 .main_input {
   display: block;
   width: 100%;
