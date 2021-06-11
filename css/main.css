@@ -397,7 +397,15 @@ text-transform: uppercase;
   margin-top: 60px;
   margin-bottom: 60px;
 }
-
+.contact_cotener {
+  padding-top: 126px;
+}
+.contact_heading {
+  padding-bottom: 36px;
+}
+.contact_text {
+  padding-bottom: 166px;
+}
 .main_input {
   display: block;
   width: 100%;
