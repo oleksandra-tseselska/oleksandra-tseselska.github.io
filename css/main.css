@@ -159,6 +159,10 @@ a {
   font-size: 14px;
   line-height: 1.21;
 }
+.sub_plain_text_big {
+  font-size: 14px;
+  line-height: 1.57;
+}
 .sub_pain_tiny_text {
   font-size: 12px;
   line-height: 1.5;
@@ -451,6 +455,37 @@ text-transform: uppercase;
 }
 .main_button:active {
   background-color: #eb1228;
+}
+.footer_contener {
+  padding-top: 90px;
+  background-color: #fafafa;
+}
+.footer_caption {
+  display: block;
+  padding-bottom: 33px;
+}
+.footer_caption_services {
+  display: block;
+  padding-bottom: 28px;
+}
+.footer_link {
+  display: block;
+  color: black;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  margin-bottom: 3px;
+}
+.footer_list_img {
+  display: inline-block;
+}
+.footer_list_link_img {
+  display: block;
+  margin-top: 15px;
+  margin-right: 5px;
+  padding: 5px;
+}
+.footer_copyright {
+  padding-top: 70px;
 }
 /* не забыть удалить после завершения проекта */
 .temperary {
