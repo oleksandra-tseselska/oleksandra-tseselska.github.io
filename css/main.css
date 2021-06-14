@@ -187,7 +187,7 @@ img {
   color: #ed4c5c;
 }
 .text_uppercase {
-text-transform: uppercase;
+  text-transform: uppercase;
 }
 .text_capitalize {
   text-transform: capitalize;
@@ -229,6 +229,10 @@ text-transform: uppercase;
   margin-top: 20px;
   margin-right: 60px;
 }
+.logo_img {
+  width: auto;
+  height: auto;
+}
 .nav_bar_list_item {
   display: inline-block;
 }
@@ -238,7 +242,7 @@ text-transform: uppercase;
   margin-top: 30px;
 }
 .link_buttom_primary {
-  display: block;
+  display: inline-block;
   border:  1px solid white;
   border-radius: 6px;
   padding: 11px 28px;
@@ -264,17 +268,18 @@ text-transform: uppercase;
 }
 .hero_slogan {
   padding-top: 20px;
-  padding-bottom: 20px;
-  margin-bottom: 20px;
+  padding-bottom: 50px;
 }
 .link_buttom_bonus {
-  display: block;
+  display: inline-block;
   width: 100%;
   height: 60px;
   color: #ed4c5c;
   background-color: white;
   border-radius: 6px;
-  padding: 20px 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
 }
 .link_buttom_bonus:focus {
   outline: none;
@@ -302,7 +307,7 @@ text-transform: uppercase;
 }
 .video {
   width: 100%;
-  height: 310px;
+  height: auto;
   border-radius: 15px;
 }
 .video:focus {
@@ -357,7 +362,9 @@ text-transform: uppercase;
 }
 .fat_finger_link {
   display: inline-block;
-  padding: 20px 10px;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 .big_number {
   font-weight: bold;
@@ -369,17 +376,25 @@ text-transform: uppercase;
   padding-bottom: 110px;
 }
 .list_wrapper__inner_img {
+  width: auto;
+  height: auto;
   margin-top: -60px;
 }
 .list_wrapper__inner_img_2 {
+  width: auto;
+  height: auto;
   margin-top: -54px;
   padding-bottom: 12px;
 }
 .list_wrapper__inner_img_3 {
+  width: auto;
+  height: auto;
   margin-top: -52px;
   padding-bottom: 18px;
 }
 .list_wrapper__inner_img_4 {
+  width: auto;
+  height: auto;
   margin-top: -50px;
   padding-bottom: 18px;
 }
@@ -483,9 +498,8 @@ text-transform: uppercase;
 .footer_link {
   display: inline-block ;
   color: black;
-  padding-top: 2px;
-  padding-bottom: 2px;
-  margin-bottom: 3px;
+  padding-top: 4px;
+  padding-bottom: 4px;
 }
 .footer_link:hover {
   color: #d52047;
@@ -496,13 +510,9 @@ text-transform: uppercase;
 .footer_list_link_img {
   display: block;
   margin-top: 15px;
-  margin-right: 5px;
   padding: 5px;
 }
 .footer_copyright {
   padding-top: 70px;
-}
-/* не забыть удалить после завершения проекта */
-.temperary {
-  padding-bottom: 300px;
+  padding-bottom: 80px;
 }
