@@ -36,6 +36,10 @@ figure {
 a {
   text-decoration: none;
 }
+img {
+  width: 100%;
+  height: auto;
+}
 .body_container{
   max-width: 1440px;
   margin-right: auto;
@@ -329,36 +333,31 @@ text-transform: uppercase;
   transform: scale(1.2);
 }
 .article_text {
-  width: 293px;
-  height: 198px;
+  max-width: 293px;
+  height: auto;
   background-color: white;
   border-radius: 8px;
   margin-top: -96px;
   margin-left: 28px;
-  position: absolute;
+  margin-right: 28px;
+  margin-bottom: 125px;
+  position: relative;
+  z-index: 2;
   box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.1);
-}
-.article_list {
-  padding-bottom: 230px;
 }
 .article_title {
   padding: 33px 32px 20px;
 }
 .article_excerpt {
   padding-right: 32px;
-  padding-bottom: 5px;
   padding-left: 32px;
 }
 .article_more_link {
-  padding-right: 20px;
-  padding-bottom: 25px;
-  padding-left: 20px;
+  padding-bottom: 5px;
 }
 .fat_finger_link {
-  display: block;
+  display: inline-block;
   padding: 20px 10px;
-  margin-right: 70px;
-  margin-left: 70px;
 }
 .big_number {
   font-weight: bold;
@@ -402,17 +401,9 @@ text-transform: uppercase;
   display: block;
   padding: 10px 10px 10px 0;
 }
-.e-market_list_item_link_apple {
+.e-market_list_item_link {
   display: block;
   padding: 10px;
-  margin-right: 8px;
-  margin-left: 8px;
-}
-.e-market_list_item_link_win {
-  display: block;
-  padding: 10px;
-  position: absolute;
-  margin-top: -37px;
 }
 .e-market_iframe {
   width: 100%;
@@ -490,7 +481,7 @@ text-transform: uppercase;
   padding-bottom: 28px;
 }
 .footer_link {
-  display: block;
+  display: inline-block ;
   color: black;
   padding-top: 2px;
   padding-bottom: 2px;
