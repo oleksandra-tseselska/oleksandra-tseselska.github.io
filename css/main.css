@@ -225,13 +225,9 @@ img {
 }
 .logo_link {
   display: block;
+  width: 70%;
   padding: 20px 10px;
-  margin-top: 20px;
-  margin-right: 60px;
-}
-.logo_img {
-  width: auto;
-  height: auto;
+  margin-top: 25px;
 }
 .nav_bar_list_item {
   display: inline-block;
@@ -242,12 +238,12 @@ img {
   margin-top: 30px;
 }
 .link_buttom_primary {
-  display: inline-block;
+  display: block;
   border:  1px solid white;
   border-radius: 6px;
   padding: 11px 28px;
   margin-top: 38px;
-  margin-left: 60px;
+  float: right;
 }
 .link_buttom_primary:hover {
   background-color: rgba(255, 255, 255, 0.137);
@@ -457,10 +453,25 @@ img {
   padding-left: 31px;
   padding-right: 31px;
   margin-bottom: 27px;
-  -webkit-appearance: none;
-  -moz-appearance: none;
+  /* -webkit-appearance: none;
+  -moz-appearance: none; */
   appearance: none;
-  background: url(../images/questionable/arrow.svg) 97% center no-repeat !important;
+  /* background: url(../images/questionable/arrow.svg) 97% center no-repeat !important; */
+  /* background: url(../images/questionable/arrow.svg);
+  background-repeat: no-repeat;
+  background-position: 97%; */
+}
+.container_select {
+  position: relative;
+}
+.select_button {
+  width: 14px;
+  height: 14px;
+  position: absolute;
+  background: url(../images/questionable/arrow.svg);
+  background-repeat: no-repeat;
+  left: calc(95% - 7px);
+  top: calc(50% - 7px);
 }
 .main_input:focus,
 .main_select:focus {
