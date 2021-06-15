@@ -220,9 +220,8 @@ img {
 }
 .logo_link {
   display: block;
-  width: 70%;
-  padding: 20px 10px;
-  margin-top: 25px;
+  font-size: 30px;
+  padding-top: 40px;
 }
 .nav_bar_list_item {
   display: inline-block;
@@ -237,7 +236,7 @@ img {
   border:  1px solid white;
   border-radius: 6px;
   padding: 11px 28px;
-  margin-top: 38px;
+  margin-top: 34px;
   float: right;
 }
 .link_buttom_primary:hover {
