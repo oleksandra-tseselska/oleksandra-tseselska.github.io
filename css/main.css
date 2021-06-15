@@ -515,6 +515,9 @@ img {
 }
 .footer_list_link_img {
   display: block;
+  color: black;
+  font-size: 26px;
+  line-height: 2;
   margin-top: 15px;
   padding: 5px;
 }
