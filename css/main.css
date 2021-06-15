@@ -366,30 +366,14 @@ img {
 .list_wrapper {
   padding-bottom: 110px;
 }
-.list_wrapper__inner_img {
-  width: auto;
-  height: auto;
-  margin-top: -60px;
-}
-.list_wrapper__inner_img_2 {
-  width: auto;
-  height: auto;
+.list_wrapper_inner_icon {
+  display: block;
+  color: #ed4c5c;
+  font-size: 64px;
+  padding-bottom: 16px;
   margin-top: -54px;
-  padding-bottom: 12px;
 }
-.list_wrapper__inner_img_3 {
-  width: auto;
-  height: auto;
-  margin-top: -52px;
-  padding-bottom: 18px;
-}
-.list_wrapper__inner_img_4 {
-  width: auto;
-  height: auto;
-  margin-top: -50px;
-  padding-bottom: 18px;
-}
-.list_wrapper__inner_text {
+.list_wrapper_inner_text {
   padding: 10px 32px 5px;
 }
 .e-market_header {
@@ -520,7 +504,7 @@ img {
 }
 .footer_list_link_img {
   color: black;
-  font-size: 26px;
+  font-size: 24px;
   line-height: 2;
   padding: 5px;
 }
