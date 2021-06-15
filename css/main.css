@@ -485,6 +485,10 @@ img {
   display: block;
   padding-bottom: 28px;
 }
+.footer_caption_support {
+  display: block;
+  padding-bottom: 22px;
+}
 .footer_link {
   display: inline-block ;
   color: black;
@@ -503,6 +507,36 @@ img {
   font-size: 24px;
   line-height: 2;
   padding: 5px;
+}
+.card_link {
+  display: inline-block;
+}
+.card_icon_verified_visa {
+  display: inline-block;
+  font-size: 55px;
+  color: rgba(21, 36, 113);
+}
+.card_icon_visa {
+  display: inline-block;
+  font-size: 55px;
+  background-image: linear-gradient(-90deg, rgb(24, 57, 189), rgba(26, 31, 98));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+.col_new {
+  float: left;
+}
+.mastercard_logo {
+  max-width: 20%;
+  min-width: 18%;
+  margin-top: 18px;
+  margin-left: 5px;
+}
+.mastercard_text {
+  /* max-width: 45%;
+  min-width: 43%; */
+  margin-top: 14px;
 }
 .footer_copyright {
   padding-top: 70px;

@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('icomoon.woff?9g2biz') format('woff');
+  src:  url('icomoon.woff?61gdvl') format('woff');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -21,6 +21,12 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-verified-by-visa:before {
+  content: "\e90c";
+}
+.icon-visa:before {
+  content: "\e90d";
+}
 .icon-apple_appstore:before {
   content: "\e904";
 }
