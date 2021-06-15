@@ -314,9 +314,14 @@ img {
   position: absolute;
   top: calc(50% - 33px);
   left: calc(50% - 33px);
-  background-image: url(../images/play-solid.svg);
+  /* background-image: url(../images/play-solid.svg);
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center; */
+}
+.play_iconmoon {
+  padding-top: 2px;
+  padding-left: 4px;
+  font-size: 20px;
 }
 .video_button:focus {
   outline: none;
