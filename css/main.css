@@ -397,18 +397,22 @@ img {
   padding-bottom: 34px;
 }
 .e-market_list {
-  padding-top: 35px;
+  padding-top: 25px;
   padding-bottom: 100px;
 }
 .e-market_list_item {
   display: inline-block;
 }
 .e-market_list_item_link_google_play {
-  display: block;
+  color: white;
+  font-size: 32px;
+  line-height: 2;
   padding: 10px 10px 10px 0;
 }
 .e-market_list_item_link {
-  display: block;
+  color: white;
+  font-size: 32px;
+  line-height: 2;
   padding: 10px;
 }
 .e-market_iframe {
@@ -512,13 +516,12 @@ img {
 }
 .footer_list_img {
   display: inline-block;
+  padding-top: 10px;
 }
 .footer_list_link_img {
-  display: block;
   color: black;
   font-size: 26px;
   line-height: 2;
-  margin-top: 15px;
   padding: 5px;
 }
 .footer_copyright {
