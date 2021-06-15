@@ -441,25 +441,17 @@ img {
   padding-left: 31px;
   padding-right: 31px;
   margin-bottom: 27px;
-  /* -webkit-appearance: none;
-  -moz-appearance: none; */
   appearance: none;
-  /* background: url(../images/questionable/arrow.svg) 97% center no-repeat !important; */
-  /* background: url(../images/questionable/arrow.svg);
-  background-repeat: no-repeat;
-  background-position: 97%; */
 }
 .container_select {
   position: relative;
 }
-.select_button {
-  width: 14px;
-  height: 14px;
+.select_arrow {
+  font-size: 8px;
+  color: rgba(19, 39, 67, 0.5);
   position: absolute;
-  background: url(../images/questionable/arrow.svg);
-  background-repeat: no-repeat;
-  left: calc(95% - 7px);
-  top: calc(50% - 7px);
+  left: calc(94% - 4px);
+  top: calc(50% - 4px);
 }
 .main_input:focus,
 .main_select:focus {
