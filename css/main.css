@@ -219,9 +219,10 @@ img {
   right: 0;
 }
 .logo_link {
-  display: block;
+  display: inline-block;
   font-size: 30px;
-  padding-top: 40px;
+  padding: 5px 10px;
+  margin-top: 38px;
 }
 .nav_bar_list_item {
   display: inline-block;
@@ -313,9 +314,6 @@ img {
   position: absolute;
   top: calc(50% - 33px);
   left: calc(50% - 33px);
-  /* background-image: url(../images/play-solid.svg);
-  background-repeat: no-repeat;
-  background-position: center; */
 }
 .play_iconmoon {
   padding-top: 2px;
@@ -534,8 +532,6 @@ img {
   margin-left: 5px;
 }
 .mastercard_text {
-  /* max-width: 45%;
-  min-width: 43%; */
   margin-top: 14px;
 }
 .footer_copyright {
