@@ -16,23 +16,31 @@ button {
   border: none;
   background: none;
   cursor: pointer;
-  text-transform: uppercase;
+}
+iframe {
+  border: none;
 }
 h1,
 h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+p {
   margin-top: 0;
   margin-bottom: 0;
 }
-figure,
-p {
+figure {
   margin: 0;
-  padding: 0; 
 }
-.contener {
+a {
+  text-decoration: none;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+.container {
   max-width: 1140px;
   margin-right: auto;
   margin-left: auto;
@@ -119,16 +127,17 @@ p {
 .offset_11 {
   margin-left: 91.66666%;
 }
-/* css который пока используется 
-только в ui.html */
 .heading_text {
   font-weight: bold;
   font-size: 72px;
   line-height: 1.19;
-  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+.sub_heading_text {
+  font-size: 24px;
+  line-height: 1.5;
 }
 .title_text {
-  font-weight: 600;
   font-size: 36px;
   line-height: 1.19;
 }
@@ -141,29 +150,282 @@ p {
   font-size: 16px;
   line-height: 1.19;
 }
+.plain_text_big {
+  font-size: 16px;
+  line-height: 1.37;
+}
 .sub_plain_text {
   font-size: 14px;
   line-height: 1.21;
 }
-/* а этот  уже применила */
+.sub_plain_text_big {
+  font-size: 14px;
+  line-height: 1.57;
+}
+.sub_pain_tiny_text {
+  font-size: 12px;
+  line-height: 1.5;
+}
 .text_center {
   text-align: center;
+}
+.text_right {
+  text-align: right;
+}
+.text_left {
+  text-align: left;
+}
+.text_white {
+  color: white;
+}
+.text_colored {
+  color: #ed4c5c;
+}
+.text_uppercase {
+  text-transform: uppercase;
+}
+.text_capitalize {
+  text-transform: capitalize;
+}
+.text_justify {
+  text-align: justify;
+}
+.title_container {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.grey_container {
+  background-color: #fafafa;
+}
+.colored_container {
+  background-color: #ed4c5c;
+}
+.wite_focus:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.507);
+  border-radius: 6px;
+}
+.color_focus:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px #ed4c5c;
+  border-radius: 6px;
+}
+.link_hover_scale:hover {
+  transform: scale(1.2);
 }
 .page_header {
   position: absolute;
   left: 0;
   right: 0;
 }
-.hero_section {
+.logo_link {
+  display: block;
+  width: 70%;
+  padding: 20px 10px;
+  margin-top: 25px;
+}
+.nav_bar_list_item {
+  display: inline-block;
+}
+.nav_bar_list_link {
+  display: block;
+  padding: 20px 10px;
+  margin-top: 30px;
+}
+.link_buttom_primary {
+  display: block;
+  border:  1px solid white;
+  border-radius: 6px;
+  padding: 11px 28px;
+  margin-top: 38px;
+  float: right;
+}
+.link_buttom_primary:hover {
+  background-color: rgba(255, 255, 255, 0.137);
+}
+.link_buttom_primary:active {
+  background-color: rgba(255, 255, 255, 0.274);
+}
+.hero-section {
   background: url(../images/bg_for_header.jpg);
   background-size: cover;
   background-position: center;
-  /* временный padding */
-  padding-top: 180px;
+  padding-top: 250px;
   padding-bottom: 180px;
 }
-.page_colored {
+.hero-heading {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.hero_slogan {
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+.link_buttom_bonus {
+  display: inline-block;
+  width: 100%;
+  height: 60px;
+  color: #ed4c5c;
+  background-color: white;
+  border-radius: 6px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+.link_buttom_bonus:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.507);
+}
+.link_buttom_bonus:hover {
+  outline: none;
+  background-color: rgb(255, 225, 228);
+}
+.link_buttom_bonus:active {
+  background-color: rgb(252, 184, 191);
+}
+.title_video_container {
+  padding-top: 140px;
+  padding-bottom: 56px;
+}
+.text_video_container {
+  padding-bottom: 102px;
+}
+.video_container {
+  display: inline-flex;
+  position: relative;
+  padding-top: 95px;
+  padding-bottom: 95px;
+}
+.video {
+  width: 100%;
+  height: auto;
+  border-radius: 15px;
+}
+.video:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px #ed4c5c;
+  border-radius: 15px;
+}
+.video_button {
+  width: 66px;
+  height: 66px;
   background-color: #ed4c5c;
+  border-radius: 50%;
+  position: absolute;
+  top: calc(50% - 33px);
+  left: calc(50% - 33px);
+  background-image: url(../images/play-solid.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.video_button:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px #9c1c29;
+}
+.video_button:hover {
+  background-color: #d62739;
+}
+.video_button:active {
+  transform: scale(1.2);
+}
+.article_text {
+  max-width: 293px;
+  height: auto;
+  background-color: white;
+  border-radius: 8px;
+  margin-top: -96px;
+  margin-left: 28px;
+  margin-right: 28px;
+  margin-bottom: 125px;
+  position: relative;
+  z-index: 2;
+  box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.1);
+}
+.article_title {
+  padding: 33px 32px 20px;
+}
+.article_excerpt {
+  padding-right: 32px;
+  padding-left: 32px;
+}
+.article_more_link {
+  padding-bottom: 5px;
+}
+.fat_finger_link {
+  display: inline-block;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.big_number {
+  font-weight: bold;
+  font-size: 100px;
+  line-height: 1.2;
+  color: rgba(16, 16, 16, 0.08);
+}
+.list_wrapper {
+  padding-bottom: 110px;
+}
+.list_wrapper__inner_img {
+  width: auto;
+  height: auto;
+  margin-top: -60px;
+}
+.list_wrapper__inner_img_2 {
+  width: auto;
+  height: auto;
+  margin-top: -54px;
+  padding-bottom: 12px;
+}
+.list_wrapper__inner_img_3 {
+  width: auto;
+  height: auto;
+  margin-top: -52px;
+  padding-bottom: 18px;
+}
+.list_wrapper__inner_img_4 {
+  width: auto;
+  height: auto;
+  margin-top: -50px;
+  padding-bottom: 18px;
+}
+.list_wrapper__inner_text {
+  padding: 10px 32px 5px;
+}
+.e-market_header {
+  padding-top: 110px;
+  padding-bottom: 34px;
+}
+.e-market_list {
+  padding-top: 35px;
+  padding-bottom: 100px;
+}
+.e-market_list_item {
+  display: inline-block;
+}
+.e-market_list_item_link_google_play {
+  display: block;
+  padding: 10px 10px 10px 0;
+}
+.e-market_list_item_link {
+  display: block;
+  padding: 10px;
+}
+.e-market_iframe {
+  width: 100%;
+  height: 380px;
+  border-radius: 15px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+.contact_cotener {
+  padding-top: 126px;
+}
+.contact_heading {
+  padding-bottom: 36px;
+}
+.contact_text {
+  padding-bottom: 166px;
 }
 .main_input {
   display: block;
@@ -186,21 +448,35 @@ p {
   padding-left: 31px;
   padding-right: 31px;
   margin-bottom: 27px;
-  -webkit-appearance: none;
-  -moz-appearance: none;
+  /* -webkit-appearance: none;
+  -moz-appearance: none; */
   appearance: none;
-  background: url(../images/questionable/arrow.svg) 97% center no-repeat !important;
+  /* background: url(../images/questionable/arrow.svg) 97% center no-repeat !important; */
+  /* background: url(../images/questionable/arrow.svg);
+  background-repeat: no-repeat;
+  background-position: 97%; */
 }
-.main_input:focus
+.container_select {
+  position: relative;
+}
+.select_button {
+  width: 14px;
+  height: 14px;
+  position: absolute;
+  background: url(../images/questionable/arrow.svg);
+  background-repeat: no-repeat;
+  left: calc(95% - 7px);
+  top: calc(50% - 7px);
+}
+.main_input:focus,
 .main_select:focus {
   outline: none;
-  box-shadow: 0 0 0 3px black;
+  box-shadow: 0 0 0 2px #ed4c5c;
 }
 .main_button {
   padding: 22px 35px;
   border-radius: 6px;
   background: #ed4c5c;
-  color: white;
 }
 .main_button:focus {
   outline: none;
@@ -210,9 +486,39 @@ p {
   background-color: #d62739;
 }
 .main_button:active {
-  background-color: #eb1228;
+  background-color: #d52047;
+  ;
 }
-/* не забыть удалить после завершения проекта */
-.temperary {
-  padding-bottom: 300px;
+.footer_container {
+  padding-top: 90px;
+  background-color: #fafafa;
+}
+.footer_caption {
+  display: block;
+  padding-bottom: 33px;
+}
+.footer_caption_services {
+  display: block;
+  padding-bottom: 28px;
+}
+.footer_link {
+  display: inline-block ;
+  color: black;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+.footer_link:hover {
+  color: #d52047;
+}
+.footer_list_img {
+  display: inline-block;
+}
+.footer_list_link_img {
+  display: block;
+  margin-top: 15px;
+  padding: 5px;
+}
+.footer_copyright {
+  padding-top: 70px;
+  padding-bottom: 80px;
 }
