@@ -15,41 +15,43 @@
   <link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
-  <header class="header">
-    <a href="#">
-      <img src="./images/logo/logo_all.svg" alt="cloud_budget">
-    </a>
-    <nav>
-      <ul>
-        <li>
-          <a href="#">Overview</a>
-        </li>
-        <li>
-          <a href="#">Features</a>
-        </li>
-        <li>
-          <a href="#">Tnechnology</a>
-        </li>
-        <li>
-          <a href="#">Contact</a>
-        </li>
-        <li>
-          <a href="#">Sign up</a>
-        </li>
-      </ul>
-    </nav>
-    <a href="#">Login</a> 
-  </header>
-  <section>
-    <h1>CloudBudget</h1>
-    <p>Cloud budget management for everyone. 
-      Only €69.95 a month after a 7 day trial of up to €4.99
-    </p>
-    <a href="#">Sign Up</a> 
-  </section>
+  <div class="header">
+    <header>
+      <a href="#" tabindex="-1">
+        <img src="./images/logo/logo_all.svg" alt="cloud_budget">
+      </a>
+      <nav>
+        <ul>
+          <li>
+            <a href="#overview_heading_nav">Overview</a>
+          </li>
+          <li>
+            <a href="#features_heading_nav">Features</a>
+          </li>
+          <li>
+            <a href="#technology_heading_nav">Tnechnology</a>
+          </li>
+          <li>
+            <a href="#contact_heading_nav">Contact</a>
+          </li>
+          <li>
+            <a href="#">Sign up</a>
+          </li>
+        </ul>
+      </nav>
+      <a href="#">Login</a> 
+    </header>
+    <section>
+      <h1>CloudBudget</h1>
+      <p>Cloud budget management for everyone. 
+        Only €69.95 a month after a 7 day trial of up to €4.99
+      </p>
+      <a href="#">Sign Up</a> 
+    </section>
+  </div>
   <main>
     <section>
-      <h2>Easy to use cloud budget management software</h2>
+      <h2 id="overview_heading_nav">Easy to use cloud budget management software</h2>
       <p>Our software is made so you can access and manage your 
         budget and expenses online at any time from any device. 
         It provides detailed income and expense reports with graphs 
@@ -67,7 +69,7 @@
       </video>
     </section>
     <section>
-      <h2>Features</h2>
+      <h2 id="features_heading_nav">Features</h2>
       <ul>
         <li>
           <article>
@@ -95,46 +97,11 @@
         </li>
       </ul>
     </section>
-    <!-- <section>
-      <h2>Features</h2>
-      <ul>
-        <li>
-          <figure>
-            <img src="./images/features/support_card.jpg" alt="money_on_heands" loading="lazy">
-            <figcaption>
-              Supports all currencies and cards
-              <p>We support all popular currencies and is fully customizable to add</p>
-              <a href="https://www.google.com/"></a>
-            </figcaption>
-          </figure>
-        </li>
-        <li>
-          <figure>
-            <img src="./images/features/to_go.jpg" alt="phon_in_heands" loading="lazy">
-            <figcaption>
-              Manage your expenses on the go
-              <p>You can access your account from anywhere in the world on any device</p>
-              <a href="https://www.google.com/"></a>
-            </figcaption>
-          </figure> 
-        </li>
-        <li>
-          <figure>
-            <img src="./images/features/cloud_software.jpg" alt="bright_corridor-with-windows-to-the-floor" loading="lazy">
-            <figcaption>
-              Cloud budget management software
-              <p>Our software is made so you can access and manage your budget</p>
-              <a href="https://www.google.com/"></a>
-            </figcaption>
-          </figure>
-        </li>
-      </ul>
-    </section> -->
     <section>
-      <h2>Technology</h2>
+      <h2 id="technology_heading_nav">Technology</h2>
       <ul>
         <li>
-          <img src="./images/techology/01.svg" alt="number_one" loading="lazy">
+          <p>01</p>
           <figure>
             <img src="./images/techology/cloud.svg" alt="cloud_with_arrow" loading="lazy">
             <figcaption>
@@ -144,7 +111,7 @@
           </figure>
         </li>
         <li>
-          <img src="./images/techology/02.svg" alt="number_two" loading="lazy">
+          <p>02</p>
           <figure>
             <img src="./images/techology/secure.svg" alt="shield with a magnifying glass" loading="lazy">
             <figcaption>
@@ -154,7 +121,7 @@
         </figure>
         </li>
         <li>
-          <img src="./images/techology/03.svg" alt="number_three" loading="lazy">
+          <p>03</p>
           <figure>
             <img src="./images/techology/pdf_dowload.svg" alt="picture_of_file_pdf" loading="lazy">
             <figcaption>
@@ -164,7 +131,7 @@
         </figure>
         </li>
         <li>
-          <img src="./images/techology/04.svg" alt="number_four" loading="lazy">
+          <p>04</p>
           <figure>
             <img src="./images/techology/csv_dowload.svg" alt="picture_of_file_csv" loading="lazy">
             <figcaption>
@@ -198,10 +165,15 @@
           </a>
         </li>
       </ul>
-      <iframe src="./images/saving_money/iframe.png" allowfullscreen loading="lazy"></iframe>
+      <iframe 
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2747.442696380321!2d30.745760150594048!3d46.47954587303831!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40c6319f49eaaaab%3A0xa6467105eed9b98c!2sComputer%20school%20Hillel!5e0!3m2!1sen!2sua!4v1622906591363!5m2!1sen!2sua" 
+        allowfullscreen 
+        loading="lazy"
+      >
+      </iframe>
     </section>
     <section>
-      <h2>Contact</h2>
+      <h2 id="contact_heading_nav">Contact</h2>
       <p>Questions or concerns? Just fill out the form below 
         and our support team will get back to you within 24 hours. 
         But I must explain to you how all this mistaken idea of denouncing pleasure 
@@ -228,27 +200,14 @@
         placeholder="Phone Number"
         required
         >
-        <!-- <select name="services">
-          <option value="service1">service1</option>
-          <option value="service2">service2</option>
-          <option value="service3">service3</option>
-          <option value="service4">service4</option>
-        </select> -->
-        <input 
-        list="services"
-        name="selected_servise"
-        placeholder="Select Service"
-        required
-        >
-        <datalist id="services">
-          <option value="service1"></option>
-          <option value="service2"></option>
-          <option value="service3"></option>
-          <option value="service4"></option>
-        </datalist>
+        <select name="services">
+          <option value="service_1">Select Service</option>
+          <option value="service_2">Select Service 2</option>
+          <option value="service_3">Select Service 3</option>
+          <option value="service_4">Select Service 4</option>
+        </select>
         <button type="submit">Submit now</button>
       </form>
-      <script src="https://febasic.github.io/js/form.js"></script>
     </section>
   </main>
   <footer>
@@ -263,13 +222,13 @@
         Services
         <ul>
           <li>
-            <a href="#">Overview</a> 
+            <a href="#overview_heading_nav">Overview</a> 
           </li>
           <li>
-            <a href="#">Features</a> 
+            <a href="#features_heading_nav">Features</a> 
           </li>
           <li>
-            <a href="#">Technology</a> 
+            <a href="#technology_heading_nav">Technology</a> 
           </li>
           <li>
             <a href="#">Terms & conditions</a>
@@ -283,7 +242,7 @@
         Get in touch
         <ul>
           <li>
-            <a href="email:info@cloudbudget.com">info@cloudbudget.com</a>
+            <a href="mailto:info@cloudbudget.com">info@cloudbudget.com</a>
           </li>
           <li>
             <a href="tel:18447217120">+1 844-721-7120</a>
@@ -312,5 +271,6 @@
     </ul>
     <p>Copyright 2020 CloudBudget</p>
   </footer>
+  <script src="https://febasic.github.io/js/form.js"></script>
 </body>
 </html>
